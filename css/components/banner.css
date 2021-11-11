@@ -1,7 +1,7 @@
 .banner {
-    background-image: url(../../assets/img/phto.png);
+    background-image: url(../../assets/img/leeann-cline-PNOMkuxWTNM-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 800px;
     border-bottom: 10px solid #000;
 }
