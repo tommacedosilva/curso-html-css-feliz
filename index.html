@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/icon-menu.css">
+    <link rel="stylesheet" href="css/components/icon-close.css">
     <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-button.css">
@@ -29,6 +30,7 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
 </head>
 <body>
     <header class="main-header">
@@ -42,6 +44,8 @@
             <a class="main-action" href="">Sobre</a>
             <a class="main-action" href="">Contato</a>
             <a href="#" lang="en" class="main-button">Download CV</a>
+
+            <a class="icon-close" href="#menu">X</a>
         </nav>
     </header>
     
@@ -208,13 +212,13 @@
     </section>
 
     <form action="">
-        <label for="name">Nome</label>
+        <label class="main-label" for="name">Nome</label>
         <input id="name" type="text">
 
-        <label for="email">Email</label>
+        <label class="main-label" for="email">Email</label>
         <input id="email" type="email">
 
-        <label for="message">Mensagem</label>
+        <label class="main-label" for="message">Mensagem</label>
         <textarea id="message"></textarea>
 
         <button type="submit">Enviar</button>
